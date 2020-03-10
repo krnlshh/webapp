@@ -1,0 +1,5 @@
+org\mycompany\myname\create_table.class
+org\mycompany\myname\read.class
+org\mycompany\myname\ReadServlet.class
+org\mycompany\myname\insertDataServlet.class
+org\mycompany\myname\HelloServlet.class
