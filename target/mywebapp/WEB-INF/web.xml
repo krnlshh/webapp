@@ -31,6 +31,15 @@
         <url-pattern>/StudentServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>ReadServlet</servlet-name>
+        <servlet-class>org.mycompany.myname.ReadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReadServlet</servlet-name>
+        <url-pattern>/ReadServlet</url-pattern>
+    </servlet-mapping>
+
 
 
 </web-app>

@@ -12,14 +12,7 @@ public class StudentServlet extends HttpServlet {
             throws ServletException, IOException
     {
         response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet StudentServlet</title>");
-            out.println("</head>");
-            out.println("<body>");
-
+        try {
             // List to hold Student objects
             ArrayList<Student> std = new ArrayList<Student>();
 
@@ -45,8 +38,9 @@ public class StudentServlet extends HttpServlet {
             // specified, here the resource is a JSP named,
             // "stdlist.jsp"
             rd.forward(request, response);
-            out.println("</body>");
-            out.println("</html>");
+
+        } finally {
+
         }
     }
     /** Following methods are used to handle

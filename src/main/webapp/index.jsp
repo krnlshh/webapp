@@ -10,5 +10,7 @@
         <a href="servlet">Click here to login</a>
         <br>
         <a href="StudentServlet">Click here to show data</a>
+        <br>
+        <a href="ReadServlet">Click here to show data</a>
     </body>
 </html>
