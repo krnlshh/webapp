@@ -25,17 +25,6 @@ public class insertDataServlet extends HttpServlet {
             String queryString="insert into users ( mname, email) values ("
                     + "'" + mname + "'" + "," + "'" + em + "'" + ");";
             int rs= stmt.executeUpdate(queryString);
-
-
-//            String readString = "select * from  users";
-//            ResultSet ps= stmt.executeQuery(readString);
-//
-//
-//            RequestDispatcher requestDispatcher = request.getRequestDispatcher("read.jsp");
-//            requestDispatcher.forward(request, response);
-
-
-
             con.close();
             stmt.close();
 

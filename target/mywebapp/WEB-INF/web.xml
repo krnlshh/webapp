@@ -23,12 +23,12 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>ReadServlet</servlet-name>
-        <servlet-class>org.mycompany.myname.ReadServlet</servlet-class>
+        <servlet-name>StudentServlet</servlet-name>
+        <servlet-class>org.mycompany.myname.StudentServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ReadServlet</servlet-name>
-        <url-pattern>/ReadServlet</url-pattern>
+        <servlet-name>StudentServlet</servlet-name>
+        <url-pattern>/StudentServlet</url-pattern>
     </servlet-mapping>
 
 
